@@ -1,0 +1,72 @@
+.projectcard {
+  border-radius: 25px;
+  width: 30%;
+  position: relative;
+  margin: 3%;
+  /* display: flex; */
+}
+
+.projectcard img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.projectinfo {
+  display: flex;
+  flex-direction: column;
+  padding: 1% 5% 5% 5%;
+  background-color: black;
+  opacity: 70%;
+  color: white;
+  text-align: left;
+  border-radius: 0px 0px 25px 25px;
+  position: absolute;
+  bottom: 3px;
+  right: 0px;
+}
+
+.projectcard h3 {
+  text-align: center;
+}
+
+.projectinfo p {
+  padding: 0;
+  margin: 0;
+}
+
+.projectinfo h3 {
+  padding: 0;
+  margin-bottom: 2%;
+}
+
+/** trying to make description only appear on hover but not working **/
+.projectcard + .projectinfo {
+  display: none;
+}
+
+.projectcard:hover > .projectinfo {
+  display: block;
+  /* color: green; */
+  font-size: 25px;
+  visibility: visible;
+}
+
+/** ^ https://www.geeksforgeeks.org/display-div-element-on-hovering-over-a-tag-using-css/#:~:text=To%20display%20div%20element%20using,to%20display%20the%20div%20element. **/
+
+.allwork {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.worksection {
+  display: flex;
+  flex-direction: column;
+}
+
+.worksection h2 {
+  font-size: calc(12px + 2vw);
+  /* color: rgb(125, 125, 104); */
+  color: rgb(127, 126, 126);
+  text-align: center;
+}
