@@ -4,9 +4,7 @@ export default function MyNav() {
   return (
     <div className="mynav">
       <h1>
-        <a href="#home">
-          My Portfolio
-        </a>
+        <a href="#home">My Portfolio</a>
       </h1>
       <div className="mynavlinks">
         <h2>
@@ -14,6 +12,9 @@ export default function MyNav() {
         </h2>
         <h2>
           <a href="#work">Work</a>
+        </h2>
+        <h2>
+          <a href="#dev">Development</a>
         </h2>
       </div>
     </div>

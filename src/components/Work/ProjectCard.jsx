@@ -5,6 +5,7 @@ export default function ProjectCard(props) {
   return (
     // <button className="projectbutton">
     // <Link>
+    // <a href={props.id}>
     <div className="projectcard">
       <img src={props.preview_img_path} alt={props.proj_name} />
       <div className="projectinfo">
@@ -12,6 +13,7 @@ export default function ProjectCard(props) {
         <p>{props.display_txt}</p>
       </div>
     </div>
+    // </a>
     // </Link>
     // </button>
   );
