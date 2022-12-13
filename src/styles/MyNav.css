@@ -1,0 +1,101 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  opacity: 95%;
+  font-size: calc(20px + 1vw);
+  position: fixed;
+  top: 0;
+  width: 94%;
+  padding: 3% 3% 2% 3%;
+}
+
+/* styling the link text */
+.navbar a {
+  font-family: "Mulish";
+  text-decoration: none;
+  color: black;
+  /* font-weight: lighter; */
+  padding: 14px 16px;
+}
+
+/* change nav links on hover */
+.navbar a:hover,
+.dropdown:hover {
+  background-color: #ddd;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.left-navbar {
+  font-size: calc(30px + 1vw);
+  padding-left: 3%;
+  font-weight: bold;
+}
+
+.left-navbar a {
+  font-family: "Philosopher";
+}
+
+.right-navbar {
+  display: flex;
+  justify-content: space-evenly;
+  width: 33%;
+  align-items: baseline;
+}
+
+/* dropdown content */
+
+.dropdown-content a {
+  display: block;
+  text-align: left;
+  font-size: calc(14px + 1vw);
+  font-weight: lighter;
+  width: 125%;
+  margin-right: 100px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  /* z-index: 2; */
+  opacity: 100%;
+}
+
+/* media queries to prevent navbar getting too small */
+
+@media (max-width: 1500px) {
+  .right-navbar {
+    width: 40%;
+    /* background-color: blue; */
+    transition: all 0.3s;
+  }
+}
+
+@media (max-width: 1100px) {
+  .right-navbar {
+    width: 50%;
+    /* background-color: rgb(255, 0, 212); */
+    transition: all 0.3s;
+  }
+}
+
+@media (max-width: 1200px) {
+  .dropdown-content a {
+    margin-right: 50px;
+    /* background-color: purple; */
+  }
+}
