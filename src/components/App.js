@@ -4,7 +4,6 @@ import MyNav from "./MyNav";
 import Home from "./pages/Home.jsx";
 import Dev from "./pages/Dev";
 import ItDesign from "./pages/ItDesign";
-import Personas from "./pages/Personas";
 import Resp from "./pages/Resp";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
@@ -21,7 +20,6 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/community-wealth-dashboard" element={<Dashboard />} />
-          <Route path="/personas" element={<Personas />} />
           <Route path="/responsive-redesign" element={<Resp />} />
           <Route path="/development" element={<Dev />} />
           <Route path="/iterative-design" element={<ItDesign />} />

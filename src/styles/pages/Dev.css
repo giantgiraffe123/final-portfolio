@@ -4,7 +4,7 @@ img {
 
 .devbody {
   margin: 20%;
-  font-size: calc(12px + 1vw);
+  font-size: calc(12px + 0.9vw);
   /* color: rgb(125, 125, 104); */
   color: rgb(127, 126, 126);
   text-align: center;

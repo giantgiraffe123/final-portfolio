@@ -2,13 +2,11 @@ html {
   scroll-padding-top: 15%;
 }
 
-#home {
+/* #home {
   margin: 15%;
-}
-
-.App {
-}
+}*/
 
 p {
   font-family: "Mulish";
+  /* font-weight: 100; */
 }

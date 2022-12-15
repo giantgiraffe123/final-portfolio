@@ -4,12 +4,13 @@
   align-items: baseline;
   justify-content: space-between;
   background-color: rgb(255, 255, 255);
-  opacity: 95%;
-  font-size: calc(20px + 1vw);
+  opacity: 80%;
+  font-size: calc(14px + 0.6vw);
   position: fixed;
   top: 0;
-  width: 94%;
-  padding: 3% 3% 2% 3%;
+  width: 100%;
+  /* padding: 3% 3% 2% 3%; */
+  z-index: 999;
 }
 
 /* styling the link text */
@@ -18,7 +19,7 @@
   text-decoration: none;
   color: black;
   /* font-weight: lighter; */
-  padding: 14px 16px;
+  padding: 12px 14px;
 }
 
 /* change nav links on hover */
@@ -31,13 +32,17 @@
 }
 
 .left-navbar {
-  font-size: calc(30px + 1vw);
-  padding-left: 3%;
+  font-size: calc(18px + 0.6vw);
+  padding: 2%;
   font-weight: bold;
 }
 
 .left-navbar a {
   font-family: "Philosopher";
+}
+
+.right-navbar a {
+  color: rgb(49, 49, 49);
 }
 
 .right-navbar {
@@ -52,7 +57,7 @@
 .dropdown-content a {
   display: block;
   text-align: left;
-  font-size: calc(14px + 1vw);
+  font-size: calc(14px + 0.6vw);
   font-weight: lighter;
   width: 125%;
   margin-right: 100px;
@@ -71,7 +76,6 @@
   display: none;
   position: absolute;
   background-color: white;
-  /* z-index: 2; */
   opacity: 100%;
 }
 

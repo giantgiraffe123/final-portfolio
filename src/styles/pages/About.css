@@ -2,7 +2,7 @@
   margin: 10%;
   padding: 0;
   text-align: left;
-  font-size: calc(12px + 1vw);
+  font-size: calc(12px + 0.7vw);
   margin-top: 15%;
 }
 
@@ -22,7 +22,8 @@
 }
 
 .blurb p {
-  font-size: calc(14px + 1.3vw);
+  color: rgb(79, 79, 79);
+  font-size: calc(14px + 0.6vw);
   margin: 3% 5% 3% 15%;
   font-weight: lighter;
 }

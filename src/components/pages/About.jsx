@@ -4,6 +4,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import MailOutlineRoundedIcon from "@mui/icons-material/MailOutlineRounded";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Add } from "@mui/icons-material";
+import MyNav from "../MyNav";
+import GoToTop from "../GoToTop";
 
 export default function About() {
   return (
@@ -42,6 +44,18 @@ export default function About() {
           </div>
         </p>
       </div>
+
+      <GoToTop />
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }

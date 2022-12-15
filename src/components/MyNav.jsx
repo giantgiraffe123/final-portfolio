@@ -1,7 +1,6 @@
 import "../styles/App.css";
 import "../styles/MyNav.css";
 import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
 import ExpandMoreRoundedIcon from "@mui/icons-material/ExpandMoreRounded";
 
 export default function MyNav() {
