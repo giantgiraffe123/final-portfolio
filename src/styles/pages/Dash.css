@@ -1,0 +1,22 @@
+.dash-figma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+  margin: 0 5%;
+}
+
+.demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.sketches-dash {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 80%;
+  padding-left: 10%;
+}

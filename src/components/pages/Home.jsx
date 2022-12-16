@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <div className="home">
-        <img src="images/profile_pic.png" alt="profile pic" />
+        <img src="images/profile/profile_pic.png" alt="profile pic" />
         <div className="greeting">
           <h1>
             Hi! I'm Giant Giraffe and I'm a junior at Brown University

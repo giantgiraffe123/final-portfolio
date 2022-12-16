@@ -9,25 +9,25 @@ export default function Work() {
       <div className="allwork">
         <ProjectCard
           link="/development"
-          preview_img_path="images/blueno-comp.png"
+          preview_img_path="images/work-covers/blueno-comp.png"
           proj_name="Development"
-          display_txt="How can we develop an ordering website with user experience in mind?"
+          display_txt="How can we develop a bakery website with user experience in mind?"
         />
         <ProjectCard
           link="/iterative-design"
-          preview_img_path="images/figmas-kiwi.png"
+          preview_img_path="images/work-covers/figmas-kiwi.png"
           proj_name="Iterative Design"
-          display_txt="How can we prototype an app from conception to finish, incorporating user feedback?"
+          display_txt="How can we prototype an app from conception to finish, incorporating user feedback along the way?"
         />
         <ProjectCard
           link="/responsive-redesign"
-          preview_img_path="images/craigslist-covers.png"
+          preview_img_path="images/work-covers/craigslist-covers.png"
           proj_name="Responsive Redesign"
           display_txt="How can we make a website usable across all devices?"
         />
         <ProjectCard
           link="/community-wealth-dashboard"
-          preview_img_path="images/dash.png"
+          preview_img_path="images/work-covers/dash.png"
           proj_name="Community Wealth Dashboard"
           display_txt="How can we visualize community wealth across Rhode Island?"
         />

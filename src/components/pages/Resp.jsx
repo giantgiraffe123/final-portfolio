@@ -11,10 +11,10 @@ import EastRoundedIcon from "@mui/icons-material/EastRounded";
 import GoToTop from "../GoToTop";
 
 const original_craisglist = {
-  imageUrl: "images/og_craig.png",
+  imageUrl: "images/resp-redesign/og_craig.png",
 };
 const redesigned_craigslist = {
-  imageUrl: "images/craigslist-covers.png",
+  imageUrl: "images/work-covers/craigslist-covers.png",
 };
 
 export default function Resp() {
@@ -23,11 +23,11 @@ export default function Resp() {
 
   function carouselImage() {
     if (lofiNum === 1) {
-      return <img src="images/desktop.png" alt="desktop" />;
+      return <img src="images/resp-redesign/desktop.png" alt="desktop" />;
     } else if (lofiNum === 2) {
-      return <img src="images/Tablet.png" alt="tablet" />;
+      return <img src="images/resp-redesign/Tablet.png" alt="tablet" />;
     } else {
-      return <img src="images/Phone.png" alt="phone" />;
+      return <img src="images/resp-redesign/Phone.png" alt="phone" />;
     }
   }
 
@@ -404,7 +404,10 @@ export default function Resp() {
           rel="noreferrer"
           className="final-img"
         >
-          <img src="images/final_craig_ss.png" alt="final redesign ss" />
+          <img
+            src="images/resp-redesign/craig-final-comp.png"
+            alt="final redesign ss"
+          />
         </a>
 
         <p>

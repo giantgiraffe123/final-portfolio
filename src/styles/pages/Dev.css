@@ -9,3 +9,16 @@ img {
   color: rgb(127, 126, 126);
   text-align: center;
 }
+
+.blueno-figma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+  margin: 0 5%;
+  /* margin: 0 5%; */
+}
+
+#blueno-final {
+  padding-top: 2%;
+}
