@@ -13,8 +13,8 @@ export default function Home() {
         <img src="images/profile/profile_pic.png" alt="profile pic" />
         <div className="greeting">
           <h1>
-            Hi! I'm Giant Giraffe and I'm a junior at Brown University
-            passionate about all things related to design, data, and psychology.
+            Hi! My name is Kiera and I'm a junior at Brown University passionate
+            about all things related to design, data, and psychology.
           </h1>
           <Link to="/about">
             <div className="to-about">

@@ -15,8 +15,8 @@ export default function About() {
         <div className="greeting">
           <h1>About me!</h1>
           <h1 id="subh1">
-            Here's a little bit about me: My name is Giant Giraffe! I am a
-            junior at Brown University studying computer science and behavioral
+            Here's a little bit about me: My name is Kiera Walsh! I am a junior
+            at Brown University studying computer science and behavioral
             decision sciences.
           </h1>
         </div>
@@ -38,9 +38,22 @@ export default function About() {
         <p>I hope you enjoy my portfolio!</p>
         <p>
           <div className="socials">
-            <MailOutlineRoundedIcon className="icon" fontSize="large" />
-            <GitHubIcon className="icon" fontSize="large" />
-            <LinkedInIcon className="icon" fontSize="large" />
+            <MailOutlineRoundedIcon
+              className="icon"
+              fontSize="large"
+              onClick={(event) =>
+                (window.location.href =
+                  "https://mail.google.com/mail/?view=cm&fs=1&to=kiera_walsh@brown.edu")
+              }
+            />
+            <LinkedInIcon
+              className="icon"
+              fontSize="large"
+              onClick={(event) =>
+                (window.location.href =
+                  "https://www.linkedin.com/in/kiera-walsh/")
+              }
+            />
           </div>
         </p>
       </div>

@@ -11,7 +11,6 @@ export default function Dashboard() {
           <h2>How can we visualize community wealth across Rhode Island?</h2>
         </div>
       </div>
-
       <div className="section">
         <h3>Background</h3>
         <p>
@@ -24,12 +23,10 @@ export default function Dashboard() {
           community wealth in communities across Rhode Island.{" "}
         </p>
       </div>
-
       <div className="section">
         <h3>Tools</h3>
         <p>Python, excel, pandas, tableau</p>
       </div>
-
       <div className="section">
         <h3>Process</h3>
         <p>
@@ -42,7 +39,6 @@ export default function Dashboard() {
           indicators based on available local data (see sources linked below).
         </p>
       </div>
-
       <div className="section">
         <h3>Defining Community Wealth</h3>
         <p>
@@ -54,7 +50,6 @@ export default function Dashboard() {
           and community engagement bring wealth to a community too.
         </p>
       </div>
-
       <div className="section">
         <h3>Collecting Data</h3>
         <p>
@@ -65,7 +60,6 @@ export default function Dashboard() {
           of RI here [redacted].
         </p>
       </div>
-
       <div className="section">
         <h3>Prototyping</h3>
         <p>
@@ -81,7 +75,6 @@ export default function Dashboard() {
           <img src="images/dash/sketch2.png" alt="dash sketch" />
         </div>
       </div>
-
       <div className="section">
         <h3>Making the Dashboard</h3>
         <p>
@@ -111,27 +104,24 @@ export default function Dashboard() {
           </div>
         </p>
       </div>
-
       <div className="section">
         <h3>The Final Product</h3>
         <p>
-          While I could not link/embed the dashboard here due to the lack of
-          anonymity associated with my tableau account, below is a brief video
-          highlighting some of the interactive feature of the dashboard. Feel
-          free to expand the videdo / pause it to look in more detail.
+          You can interact with the final product{" "}
+          <a href="https://public.tableau.com/views/RITableau/Dashboard?:display_count=n&:origin=viz_share_link">
+            here
+          </a>
+          . Enjoy!
         </p>
-        <div className="demo">
-          <video width="360" height="270" controls>
-            <source src="images/dash/quick-demo-1.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <video width="360" height="270" controls id="vid2">
-            <source src="images/dash/demo2.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
+        {/* <div id="dash">
+          <iframe
+            id="dash-frame"
+            title="dashboard"
+            src="https://public.tableau.com/views/RITableau/Dashboard?:display_count=n&:origin=viz_share_link"
+            // src="https://public.tableau.com/app/profile/kiera.walsh/viz/RITableau/Dashboard"
+          />
+        </div> */}
       </div>
-
       <div className="section">
         <h3>Conclusions</h3>
         <p>
@@ -144,7 +134,6 @@ export default function Dashboard() {
       </div>
 
       <GoToTop />
-
       <br />
       <br />
       <br />
